@@ -8,5 +8,3 @@ def bubble_sort(lista):
                 lista[i+1] = x
     return lista
 
-
-print(bubble_sort([23, 12, 6, 34, 12, 9, 10, 1, 5]))
