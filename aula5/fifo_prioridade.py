@@ -1,5 +1,4 @@
 codigo = 0
-fila = []
 fila_a_priori = []
 fila_b_priori = []
 
@@ -7,7 +6,7 @@ while True:
     codigo = int(input("Digite um código [1- adicionar; 2- atender; 3- sair; 4- ver pilha]: "))
     if codigo == 3:
         print("Saindo...")
-        print(f"A pilha esta assim: {fila}")
+        print(f"A pilha esta assim: A.P.:{fila_a_priori}; B.P.:{fila_b_priori}")
         break
     if codigo == 1:
         documento = input("Documento para ser adicionado: ")
