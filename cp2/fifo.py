@@ -15,3 +15,5 @@ def fifo(lista):
         sleep(0.5)
     print("Acabou.")
 
+
+print(fifo(entrada_clientes()))

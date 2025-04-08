@@ -1,5 +1,7 @@
 from time import sleep
 
+lista = [3, 5, 7, 8, 11, 14, 15]
+
 
 def busca_binaria(lista, alvo):
     lista_ordenada = sorted(lista)
@@ -17,3 +19,6 @@ def busca_binaria(lista, alvo):
         else:
             h = m - 1
     return -1
+
+
+print(busca_binaria(lista, 15))
